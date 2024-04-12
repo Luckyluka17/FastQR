@@ -1,0 +1,5 @@
+
+/build/fastqr
+/dist
+build/build.json
+fastqr.spec
