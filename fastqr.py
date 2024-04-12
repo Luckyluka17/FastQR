@@ -4,8 +4,7 @@ import qrcode
 import os
 from colorama import init, Fore, Back
 
-version = 1.0
-
+version = "v0.1-alpha"
 
 def main():
     parser = argparse.ArgumentParser(
