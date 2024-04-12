@@ -3,3 +3,5 @@
 /dist
 build/build.json
 fastqr.spec
+/build/gui
+_config.yml
