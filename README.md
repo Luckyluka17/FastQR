@@ -26,15 +26,19 @@ Téléchargez la dernière version en [cliquant ici](https://github.com/Luckyluk
 > [!TIP]
 > Pour avoir accès à l'exécutable sans être forcèment ouvrir un terminal dans le dossier où il est actuellement, vous pouvez ajouter **fastqr** au variables d'environnement. [Cliquez ici pour ouvrir la page associée sur la documentation](https://github.com/Luckyluka17/FastQR/wiki/Ajouter-FastQR-aux-variables-d'environnement).
 
-### Linux
+### Linux (instable)
 Paquets requis :
 - git
 - python3
 - python3-pip
 
+> [!IMPORTANT]  
+> Dans certains cas, vous devrer tapez la commande `pip install -r FastQR/requirements.txt --break-system-packages` au lieu de `pip install -r FastQR/requirements.txt`
+
 ```bash
 sudo su
-git clone https://github.com/Luckyluka17/FastQR.git && pip install -r FastQR/requirements.txt
+git clone https://github.com/Luckyluka17/FastQR.git
+pip install -r FastQR/requirements.txt
 cp FastQR/fastqr.py /usr/bin/fastqr
 chmod +x /usr/bin/fastqr
 ```
